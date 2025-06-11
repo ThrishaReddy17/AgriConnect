@@ -1,0 +1,46 @@
+[build]
+  publish = "."
+  command = "npm run build"
+
+[build.environment]
+  PHP_VERSION = "8.1"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "*.php"
+  [headers.values]
+    Content-Type = "text/plain"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Content-Type = "text/css"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Content-Type = "image/jpeg"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Content-Type = "image/png"
+
+[[headers]]
+  for = "*.gif"
+  [headers.values]
+    Content-Type = "image/gif"
+
+[[headers]]
+  for = "*.webp"
+  [headers.values]
+    Content-Type = "image/webp"

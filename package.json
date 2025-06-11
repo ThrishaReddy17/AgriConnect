@@ -1,0 +1,22 @@
+{
+  "name": "agriconnect-ecommerce",
+  "version": "1.0.0",
+  "description": "Agricultural e-commerce platform connecting farmers, organizations, and customers",
+  "main": "index.php",
+  "scripts": {
+    "build": "echo 'Building PHP project...' && mkdir -p dist && cp -r . dist/ && rm -rf dist/node_modules dist/.git dist/package.json",
+    "start": "php -S localhost:8000",
+    "dev": "php -S localhost:8000"
+  },
+  "keywords": [
+    "agriculture",
+    "ecommerce",
+    "farmers",
+    "organic",
+    "php"
+  ],
+  "author": "AgriConnect Team",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

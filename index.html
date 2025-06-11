@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect - Agricultural E-commerce Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c6e49;
+            margin-bottom: 20px;
+        }
+        .logo {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .features {
+            text-align: left;
+            margin: 30px 0;
+        }
+        .features h3 {
+            color: #2c6e49;
+            margin-bottom: 15px;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .features li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+        }
+        .setup-notice {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .setup-notice h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .tech-stack {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🌱</div>
+        <h1>AgriConnect - Agricultural E-commerce Platform</h1>
+        
+        <div class="description">
+            A comprehensive PHP-based e-commerce platform designed specifically for the agricultural sector, 
+            connecting farmers, organizations, and customers in a sustainable marketplace.
+        </div>
+
+        <div class="features">
+            <h3>Key Features</h3>
+            <ul>
+                <li>Multi-role authentication (Farmers, Organizations, Customers, Admin)</li>
+                <li>Product management and marketplace</li>
+                <li>Stubble burning management system</li>
+                <li>Shopping cart and order processing</li>
+                <li>Admin dashboard with comprehensive controls</li>
+                <li>Multilingual support (English, Hindi, Telugu)</li>
+                <li>Responsive design for all devices</li>
+                <li>Secure payment processing</li>
+                <li>Notification system</li>
+                <li>Profile management for all user types</li>
+            </ul>
+        </div>
+
+        <div class="tech-stack">
+            <h3>Technology Stack</h3>
+            <p><strong>Backend:</strong> PHP 7.4+, MySQL, PDO</p>
+            <p><strong>Frontend:</strong> HTML5, CSS3, JavaScript</p>
+            <p><strong>Features:</strong> Session management, File uploads, SMS integration (Twilio)</p>
+            <p><strong>Security:</strong> Password hashing, SQL injection prevention, XSS protection</p>
+        </div>
+
+        <div class="setup-notice">
+            <h3>⚠️ Setup Required</h3>
+            <p>This is a PHP application that requires a web server with PHP and MySQL support. 
+            The static deployment shows the project structure, but to run the application you'll need:</p>
+            <ul style="text-align: left; margin-top: 15px;">
+                <li>PHP 7.4+ with PDO extension</li>
+                <li>MySQL 5.7+ database</li>
+                <li>Web server (Apache/Nginx)</li>
+                <li>Database setup and configuration</li>
+            </ul>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <a href="pages/starting.php" class="btn">View Application Structure</a>
+            <a href="README.md" class="btn" style="background: #007bff;">Read Documentation</a>
+        </div>
+
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #666;">
+            <p>© 2024 AgriConnect. Empowering farmers with technology for a sustainable future.</p>
+        </div>
+    </div>
+</body>
+</html>

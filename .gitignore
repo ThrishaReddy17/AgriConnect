@@ -1,2 +1,45 @@
+# Dependencies
 node_modules/
+vendor/
+
+# Environment files
 .env
+.env.local
+.env.production
+
+# Database configuration (should be configured per environment)
+includes/db.php
+
+# Uploaded files
+uploads/
+images/uploads/
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Composer
+composer.phar
+composer.lock
+
+# Backup files
+*.bak
+*.backup
